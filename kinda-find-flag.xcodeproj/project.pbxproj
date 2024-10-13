@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8003E6112CBC4183000B2BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8003E5F22CBC4182000B2BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8003E5F92CBC4182000B2BF1;
+			remoteInfo = "kinda-find-flag";
+		};
+		8003E61B2CBC4183000B2BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8003E5F22CBC4182000B2BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8003E5F92CBC4182000B2BF1;
+			remoteInfo = "kinda-find-flag";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8003E5FA2CBC4182000B2BF1 /* kinda-find-flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kinda-find-flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8003E6102CBC4183000B2BF1 /* kinda-find-flagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kinda-find-flagTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8003E61A2CBC4183000B2BF1 /* kinda-find-flagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kinda-find-flagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8003E6222CBC4183000B2BF1 /* Exceptions for "kinda-find-flag" folder in "kinda-find-flag" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8003E5F92CBC4182000B2BF1 /* kinda-find-flag */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8003E5FC2CBC4182000B2BF1 /* kinda-find-flag */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8003E6222CBC4183000B2BF1 /* Exceptions for "kinda-find-flag" folder in "kinda-find-flag" target */,
+			);
+			path = "kinda-find-flag";
+			sourceTree = "<group>";
+		};
+		8003E6132CBC4183000B2BF1 /* kinda-find-flagTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "kinda-find-flagTests";
+			sourceTree = "<group>";
+		};
+		8003E61D2CBC4183000B2BF1 /* kinda-find-flagUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "kinda-find-flagUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8003E5F72CBC4182000B2BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8003E60D2CBC4183000B2BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8003E6172CBC4183000B2BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8003E5F12CBC4182000B2BF1 = {
+			isa = PBXGroup;
+			children = (
+				8003E5FC2CBC4182000B2BF1 /* kinda-find-flag */,
+				8003E6132CBC4183000B2BF1 /* kinda-find-flagTests */,
+				8003E61D2CBC4183000B2BF1 /* kinda-find-flagUITests */,
+				8003E5FB2CBC4182000B2BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8003E5FB2CBC4182000B2BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8003E5FA2CBC4182000B2BF1 /* kinda-find-flag.app */,
+				8003E6102CBC4183000B2BF1 /* kinda-find-flagTests.xctest */,
+				8003E61A2CBC4183000B2BF1 /* kinda-find-flagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8003E5F92CBC4182000B2BF1 /* kinda-find-flag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8003E6232CBC4183000B2BF1 /* Build configuration list for PBXNativeTarget "kinda-find-flag" */;
+			buildPhases = (
+				8003E5F62CBC4182000B2BF1 /* Sources */,
+				8003E5F72CBC4182000B2BF1 /* Frameworks */,
+				8003E5F82CBC4182000B2BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8003E5FC2CBC4182000B2BF1 /* kinda-find-flag */,
+			);
+			name = "kinda-find-flag";
+			packageProductDependencies = (
+			);
+			productName = "kinda-find-flag";
+			productReference = 8003E5FA2CBC4182000B2BF1 /* kinda-find-flag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8003E60F2CBC4183000B2BF1 /* kinda-find-flagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8003E6282CBC4183000B2BF1 /* Build configuration list for PBXNativeTarget "kinda-find-flagTests" */;
+			buildPhases = (
+				8003E60C2CBC4183000B2BF1 /* Sources */,
+				8003E60D2CBC4183000B2BF1 /* Frameworks */,
+				8003E60E2CBC4183000B2BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8003E6122CBC4183000B2BF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8003E6132CBC4183000B2BF1 /* kinda-find-flagTests */,
+			);
+			name = "kinda-find-flagTests";
+			packageProductDependencies = (
+			);
+			productName = "kinda-find-flagTests";
+			productReference = 8003E6102CBC4183000B2BF1 /* kinda-find-flagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8003E6192CBC4183000B2BF1 /* kinda-find-flagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8003E62B2CBC4183000B2BF1 /* Build configuration list for PBXNativeTarget "kinda-find-flagUITests" */;
+			buildPhases = (
+				8003E6162CBC4183000B2BF1 /* Sources */,
+				8003E6172CBC4183000B2BF1 /* Frameworks */,
+				8003E6182CBC4183000B2BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8003E61C2CBC4183000B2BF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8003E61D2CBC4183000B2BF1 /* kinda-find-flagUITests */,
+			);
+			name = "kinda-find-flagUITests";
+			packageProductDependencies = (
+			);
+			productName = "kinda-find-flagUITests";
+			productReference = 8003E61A2CBC4183000B2BF1 /* kinda-find-flagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8003E5F22CBC4182000B2BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8003E5F92CBC4182000B2BF1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8003E60F2CBC4183000B2BF1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8003E5F92CBC4182000B2BF1;
+					};
+					8003E6192CBC4183000B2BF1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8003E5F92CBC4182000B2BF1;
+					};
+				};
+			};
+			buildConfigurationList = 8003E5F52CBC4182000B2BF1 /* Build configuration list for PBXProject "kinda-find-flag" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8003E5F12CBC4182000B2BF1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8003E5FB2CBC4182000B2BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8003E5F92CBC4182000B2BF1 /* kinda-find-flag */,
+				8003E60F2CBC4183000B2BF1 /* kinda-find-flagTests */,
+				8003E6192CBC4183000B2BF1 /* kinda-find-flagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8003E5F82CBC4182000B2BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8003E60E2CBC4183000B2BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8003E6182CBC4183000B2BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8003E5F62CBC4182000B2BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8003E60C2CBC4183000B2BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8003E6162CBC4183000B2BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8003E6122CBC4183000B2BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8003E5F92CBC4182000B2BF1 /* kinda-find-flag */;
+			targetProxy = 8003E6112CBC4183000B2BF1 /* PBXContainerItemProxy */;
+		};
+		8003E61C2CBC4183000B2BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8003E5F92CBC4182000B2BF1 /* kinda-find-flag */;
+			targetProxy = 8003E61B2CBC4183000B2BF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8003E6242CBC4183000B2BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z763Y6Z974;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kinda-find-flag/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kipa.kinda-find-flag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8003E6252CBC4183000B2BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z763Y6Z974;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kinda-find-flag/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kipa.kinda-find-flag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8003E6262CBC4183000B2BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8003E6272CBC4183000B2BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8003E6292CBC4183000B2BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z763Y6Z974;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kipa.kinda-find-flagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kinda-find-flag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kinda-find-flag";
+			};
+			name = Debug;
+		};
+		8003E62A2CBC4183000B2BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z763Y6Z974;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kipa.kinda-find-flagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kinda-find-flag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kinda-find-flag";
+			};
+			name = Release;
+		};
+		8003E62C2CBC4183000B2BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z763Y6Z974;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kipa.kinda-find-flagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kinda-find-flag";
+			};
+			name = Debug;
+		};
+		8003E62D2CBC4183000B2BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z763Y6Z974;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kipa.kinda-find-flagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kinda-find-flag";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8003E5F52CBC4182000B2BF1 /* Build configuration list for PBXProject "kinda-find-flag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8003E6262CBC4183000B2BF1 /* Debug */,
+				8003E6272CBC4183000B2BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8003E6232CBC4183000B2BF1 /* Build configuration list for PBXNativeTarget "kinda-find-flag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8003E6242CBC4183000B2BF1 /* Debug */,
+				8003E6252CBC4183000B2BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8003E6282CBC4183000B2BF1 /* Build configuration list for PBXNativeTarget "kinda-find-flagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8003E6292CBC4183000B2BF1 /* Debug */,
+				8003E62A2CBC4183000B2BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8003E62B2CBC4183000B2BF1 /* Build configuration list for PBXNativeTarget "kinda-find-flagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8003E62C2CBC4183000B2BF1 /* Debug */,
+				8003E62D2CBC4183000B2BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8003E5F22CBC4182000B2BF1 /* Project object */;
+}
