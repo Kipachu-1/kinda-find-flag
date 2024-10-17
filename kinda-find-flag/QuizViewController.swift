@@ -10,6 +10,7 @@ import UIKit
 class QuizViewController: UIViewController {
     var questions: [FlagQuestion] = []
     var currentQuestionIndex: Int = 0
+    var score = 0;
     
     
     @IBOutlet weak var flagImageView: UIImageView!
@@ -69,7 +70,11 @@ class QuizViewController: UIViewController {
         }))
         self.present(alert, animated: true, completion: nil)
     }
+    
+    var firstTry = true
     func loadQuestion() {
+            firstTry = true
+       
         
             guard let question = currentQuestion else {
                 showQuizCompletionAlert()
@@ -128,8 +133,13 @@ class QuizViewController: UIViewController {
                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                         self.goToNextQuestion()
                     }
+                   if(firstTry) {
+                       score += 1
+                       print("Score: \(score)")
+                   }
                } else {
                    sender.tintColor = UIColor.red
+                   firstTry = false
                }
            }
        }
